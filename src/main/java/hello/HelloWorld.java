@@ -23,11 +23,11 @@ public class HelloWorld
 {
 	public static void main(String[] args)
 	{
-		System.out.println("hello world Gradle --- the time is " + new LocalTime());
+		System.out.println("hello world Gradle --- the time after build is " + new LocalTime());
 	}
 }
 
-/* build outputs:
+/* build outputs: 
 
 build/classes			java/main/HelloWorld.class
 build/reports			unit test results (if any)
